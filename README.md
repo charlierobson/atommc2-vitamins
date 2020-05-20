@@ -1,6 +1,6 @@
 # atommc2-vitamins
 
-### Here yuo will find:
+### Here you will find:
 
 The Fine Manual
   
