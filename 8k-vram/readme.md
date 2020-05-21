@@ -1,1 +1,1 @@
-A re-working of this, the [C-Mos geheugen](http://acornatom.nl/hardware/cmos/cmos.html)
+A re-working of this, the [C-mos (video) hooggeheuge](http://acornatom.nl/hardware/cmos/cmos.html)
