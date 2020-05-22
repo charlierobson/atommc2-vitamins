@@ -2,7 +2,7 @@
 
 ### Here you will find:
 
-The Fine Manual
+[The Fine Manual](https://github.com/charlierobson/atommc2-vitamins/wiki/The-Fine-Manual)
   
 Some PCBs to make and enjoy
 * 8k video RAM
