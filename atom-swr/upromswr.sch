@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -583,6 +583,16 @@ W = angled&lt;p&gt;
 <sheet>
 <plain>
 <text x="17.78" y="132.08" size="1.778" layer="91" rot="R90">2532 pinout</text>
+<text x="53.34" y="71.12" size="1.778" layer="91">Requires 32K RAM chip
+
+To minimise leg cutting A11 is relocated
+to pin 1 which is N/C on 8K chips.
+
+Unused address lines are tied to the rail
+of the most convenient supply pin.
+
+!CS and !OE are connected, chips need to
+give priority to !WE</text>
 </plain>
 <instances>
 <instance part="SV1" gate="G$1" x="22.86" y="137.16" smashed="yes">
@@ -924,6 +934,7 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="IC1" gate="G$1" pin="A11"/>
 <wire x1="2.54" y1="50.8" x2="-2.54" y2="50.8" width="0.1524" layer="91"/>
+<label x="-2.54" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -932,6 +943,10 @@ W = angled&lt;p&gt;
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
